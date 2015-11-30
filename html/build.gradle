@@ -7,8 +7,8 @@ gwt {
     minHeapSize="1G"
 
     src = files(file("src/")) // Needs to be in front of "modules" below.
-    modules 'org.dorydory.game.GdxDefinition'
-    devModules 'org.dorydory.game.GdxDefinitionSuperdev'
+    modules 'org.dorydory.libgdx.GdxDefinition'
+    devModules 'org.dorydory.libgdx.GdxDefinitionSuperdev'
     project.webAppDirName = 'webapp'
 
     compiler {
